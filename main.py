@@ -127,8 +127,8 @@ python challenge
 Question two and solution 
 '''
 
-# student_name = ('Noah Garcai')
-# print(student_name)
+student_name = ('Noah Garcai')
+print(student_name)
 
 # math_score = '78'
 # reading_score = '82' 
