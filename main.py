@@ -1,190 +1,124 @@
-# print("Hello everyone this is Junior")
-# print('Today is 10 octber 2025')
 
-# # string manipulation 
 
-# first_name = "Nana Opoku Ware "
-# Last_name = "Junior"
-# title_name = "Getting Serious this Three Month "
-# Course_name = " Sql , Python , Mainframe "
-# Month = 'October , Novembr , December'
 
-# #string concatenation 
-# Advance_course = title_name + '\n' + first_name
-# Course_name = Month + '\n' + first_name
 
-# print(Course_name)
-# print(Last_name)
 
 
 
-# # f string 
-# name = 'Nana Opoku Ware Junior'
-# age = '19 years old '
-# role = 'Sql Instrutor , Python Instrutor, Data Enginer'
+#Arithmetic operations
+#+ , _ , * , % , / , //
+ 
 
-# print(f"My name is {name}")
-# print (f"I am {age}years old")
-# print (f"I am {role} at Adupslam company" )
+Remote = 2000
+Yea = 3700
 
-# int = 90
-# int = type(int)
-# print(int)
+monthly_salary = 2000 + 3700 
+print(monthly_salary)
 
-# type_of_string = type("I am a boy") 
-# print(type_of_string)
-# bill = 90.99
-# type_of_bill = type(bill)
-# # print(type_of_bill)
+expenses = 370 + 800 + 200 + 450 + 200 
+print(expenses )
 
-'''
-This lecture is called data type casting /
-python casting , data coversion 
-simplely means convering int to a str 
+total_expenses = 3700 - 2020
+print(total_expenses)
 
-'''
-twitter_ceo = 'Elon musk'
-twitter_worth ='7_000_000_000'
-age = 34
-cost = 1945.77
+remaining = 2000 + 1680 
+print(remaining)
 
-# int_cost = str(cost)
-# print(type(int_cost))
 
-# int_age = int(age)
-# print(int_age)
+total_expenses = 5700 - 3680 
+print(total_expenses)
 
-# int_cost = int(cost)
-# print(type(int_cost) )
 
-# is_nana = True
 
-# # str_is_nana = str(is_nana)
-# # print(type(str_is_nana))
-# float_age = float(age)
-# print(type(float_age))
+Yea = 3700
+remote = 2400
 
-# Name = input ('what is your name'  )
-# Dream_Job = input('what is your dream Job')
-# Expectations = input('Next three month neeed to be good at')
-# is_nana = input('Is nana a good student True or False')
+total_salary = 3700  * 2400 
+print(total_salary )
 
+total_net = 2400 + 3700
+print(total_net)
 
+net = 6100 * 12
+print(net)
 
+base_salary = 73200 / 12 
+print(base_salary)
+ 
+#floor division 
+base_salary = 73200 // 12
+print(base_salary)
 
 
-# print(is_nana)
-# print(Name)
-# print(Dream_Job)
-# print(Expectations)
+#The asignment operator
+#equal to operator  =
 
+#+= 
+#-=
+#/=
+#// =
+#*=
 
-'''
-python challenge 
-'''
 
-# name = input('what is your name')
-# company = input('what is your dream company')
-# programming_language = input('what is your favorite language')
+# control flow AND conditional statement AND comprisms operator 
+ #== , != , > , < , >= , <= , using in creating if blcok 
+ # control flow refers to the order in which our code get executed  
 
-# solutions = f"I am {name} , I  wish to work at my  {company}  and  My favorite programming language is {programming_language} . "
+expenses = 2020
+pay = 6100
 
-# print(solutions)
+if pay > expenses : 
+   print('You are the best')
+else :
+  print('More room for improvement')  
 
+#Assignment
 
+name = input('what is your name ')
+print(name)
 
+age = input('what is your age')
+print(age)
 
+print(f'Hello {name} ! it is great to meet a {age} year old programer !')
 
-# student_name = ('Sophia Chen')
-# print(student_name)
 
-# math_score = '65'
-# int_average_score = int(65) 
-# print(int_average_score)
+name = input ('what is your name ')
+print(name)
 
-# reading_score = '72'
-# int_average_score = int(72)
-# print(int_average_score)
+age = input ('what is your age')
+print(age)
 
-# science_score = '68'
-# int_Average_score = int(68)
-# print(int_Average_score)
 
-# total_score = (68 + 72 + 65)
-# print(total_score)
+print(f'Hello {name} ! ,it is great to meet a {age} year old programer !')
 
-# average_score = (205) / 3
-# print(average_score)
 
-# average_score = f'The average_score is {average_score:.2f}'
-# print(average_score)
 
+# Question
+#Since you've mastered basic input/output and variables, let's add conditional statements to the mix!
 
+#Goal: Create a program that asks for the user's birth year and calculates their age, then tells them if they're a minor or an adult.
 
+current_year = 2024
 
+birth_year = int(input('what is your birth_year '))
 
-'''
-Question two and solution 
-'''
+age = current_year-birth_year
 
-student_name = ('Noah Garcai')
-print(student_name)
+if age >= 18 :
+         print('You are an aldut')
+else :
+        print('You are a minor')
 
-# math_score = '78'
-# reading_score = '82' 
-# Science_score = '75'
 
-# int_math_score= int(78)
-# int_reading_score = int(82)
-# int_science_score = int(75)
 
-# print(int_math_score)
-# print(int_reading_score)
-# print(int_science_score)
 
+# Assignment 2 
+#Create a program that asks for the user's birth year AND current year, then provides more detailed age categorization.
 
-# total_score = (78 + 82 + 75 )
-# print(total_score)
+# solution .
 
-# Average_score = 235 / 3
-# print(Average_score)
+#birth_year = input(int('what is your birth_year'))
 
+#current_year = input(int('whatis your current_year'))
 
-# Average_score = f'The Average_score is {Average_score:.2f}'
-# print(Average_score)
-
-
-
-
-'''
-Questions 3
-'''
-
-student_name = ('Jacob Smith')
-print(student_name)
-
-int_math_score = int(100)
-int_reading_score = int(100)
-int_science_score = int(100)
-
-print(int_math_score)
-print(int_reading_score)
-print(int_science_score)
-
-total_score = (100 + 100 + 100)
-print(total_score)
-
-
-Average_score = 300 /3
-print(Average_score)
-
-Average_score = f'The average_score is {Average_score:2f}'
-print(Average_score)
-
-# This should create: "Welcome John Smith! Your member since 2022."
-first_name = "john"
-last_name = "smith"
-member_year = "2022"
-
-message = f"Welcome {first_name.capitalize} {last_name.capitalize}! You've been a member since {member_year}."
-print(message)
