@@ -181,10 +181,3 @@ print(Average_score)
 Average_score = f'The average_score is {Average_score:2f}'
 print(Average_score)
 
-# This should create: "Welcome John Smith! Your member since 2022."
-first_name = "john"
-last_name = "smith"
-member_year = "2022"
-
-message = f"Welcome {first_name.capitalize} {last_name.capitalize}! You've been a member since {member_year}."
-print(message)
