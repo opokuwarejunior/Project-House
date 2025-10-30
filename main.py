@@ -9,6 +9,7 @@
 #+ , _ , * , % , / , //
  
 
+
 Remote = 2000
 Yea = 3700
 
@@ -118,7 +119,40 @@ else :
 
 # solution .
 
-#birth_year = input(int('what is your birth_year'))
+current_year = 2024
 
-#current_year = input(int('whatis your current_year'))
+birth_year = int(input('what is your birth_year '))
 
+age = current_year - birth_year
+print(age)
+
+if age < 13 :
+     print('You are a Child')
+
+elif age >= 13 and age <= 17 :
+     print('You are a teen ')
+
+elif age >=18 and age <= 64 : 
+     print('You are an Adult')
+
+else :
+    print('You are a senior ')
+     
+# Questions 
+
+#Create a program that asks for the user's age and calculates their movie ticket price with different categories.
+
+age = int(input('what is your age'))
+
+if age <= 13 :
+     print(' You will pay the child price 8$')
+
+elif  age <= 17 :
+     print('You will pay Teen price 12$')
+
+elif age <= 64 :
+     print('You will pay Adult price 15$')
+
+
+else :
+     print('You are a senior you will pay 10$')
