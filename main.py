@@ -154,5 +154,8 @@ elif age <= 64 :
      print('You will pay Adult price 15$')
 
 
+<<<<<<< HEAD
 else :
      print('You are a senior you will pay 10$')
+=======
+>>>>>>> 1b8810fcba1e4d25961d34f49c5ba730a8942ad2
