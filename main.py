@@ -4,7 +4,7 @@
 
 
 
-
+'''
 #Arithmetic operations
 #+ , _ , * , % , / , //
  
@@ -154,8 +154,31 @@ elif age <= 64 :
      print('You will pay Adult price 15$')
 
 
-<<<<<<< HEAD
 else :
      print('You are a senior you will pay 10$')
-=======
->>>>>>> 1b8810fcba1e4d25961d34f49c5ba730a8942ad2
+'''
+
+#Debugging Assignment
+
+number = int(input("Enter a number: ") )
+
+if number > 0:
+    print("Positive number")
+elif number < 0:
+    print("Negative number")
+else :
+    print("Zero")
+
+
+#Question 2
+'''
+name = input("What is your name? )
+age = input("How old are you? "
+
+print(f"Hello {name}! You are age years old.")
+'''
+#solution.
+name = input("what is your name ?")
+age = input("How old are you ?")
+
+print(f"Hello {name}! You are {age} years old .")
